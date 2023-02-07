@@ -1,11 +1,17 @@
 // Add an object with translated text for each language
 const translations = {
-    en: {
-      translation: "Translation shows up here",
-    },
-    no: {
-        translation: "Oversettelse kommer her",
-        }
-  };
-  
-  export default translations;
+  en: {
+    title: "Notes App",
+    placeHold: "Write a note..",
+    addNote: "Add Note",
+    removeNote: "Remove Note"
+  },
+  no: {
+    title: "Notat Applikasjon",
+    placeHold: "Skriv et notat..",
+    addNote: "Legg til notat",
+    removeNote: "Fjern Notat"
+  }
+};
+
+export default translations;
