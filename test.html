@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<title>Test</title>
+<head>
+    <div>
+    
+        <h1 id = "translateText">Translation comes here..</h1>
+    </div>
+
+</head>
+
+<script type = "module">
+    import translations from "/languageModule.mjs";
+
+    function translate(){
+        document.getElementById("translateText").innerText = translations[language].translation;
+    }
+
+    translateBtn.addEventListener("click", translator);
+    
+
+</script>
+
+</html>
